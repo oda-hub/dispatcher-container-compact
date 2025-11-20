@@ -1,0 +1,5 @@
+repos:
+- repo: https://github.com/dsavchenko/pixi-pre-commit
+  rev: d50d717024a142b6aadd26b1e2a5681f88b63c83
+  hooks:
+  - id: pixi-lock

@@ -1,0 +1,5 @@
+**
+!pixi.toml
+!pixi.lock
+!entrypoint.sh
+!dummy-data-loader.sh
