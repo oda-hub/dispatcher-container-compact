@@ -1,7 +1,8 @@
-ARG PIXI_VERSION=0.59.0
+ARG PIXI_VERSION=0.63.1
+FROM ghcr.io/prefix-dev/pixi:${PIXI_VERSION}-bookworm AS build
+
 ARG LOCKED=yes
 ARG DISPATCHER_ENV_VARIANT=default
-FROM ghcr.io/prefix-dev/pixi:${PIXI_VERSION}-bookworm AS build
 
 RUN apt-get update && apt-get install -y git curl gcc
 
@@ -10,10 +11,12 @@ COPY . .
 
 RUN pixi config set --local run-post-link-scripts insecure
 RUN if [ "${LOCKED:-yes}" = "yes" ]; then \
-        pixi install --locked -e ${DISPATCHER_ENV_VARIANT:-default} ;\
-    else \
-        pixi install -e ${DISPATCHER_ENV_VARIANT:-default} ;\
-    fi
+    echo "Installing ${DISPATCHER_ENV_VARIANT} environment with --locked" ;\
+    pixi install --locked -e ${DISPATCHER_ENV_VARIANT:-default} ;\
+  else \
+    echo "Installing ${DISPATCHER_ENV_VARIANT} environment without" ;\
+    pixi install -e ${DISPATCHER_ENV_VARIANT:-default} ;\
+  fi
 RUN pixi shell-hook -s bash > shell-hook
 RUN sed -i '1 r shell-hook' entrypoint.sh
 RUN sh /app/dummy-data-loader.sh 
