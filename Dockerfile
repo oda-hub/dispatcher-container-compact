@@ -15,7 +15,7 @@ RUN if [ "${LOCKED:-yes}" = "yes" ]; then \
     pixi install --locked -e ${DISPATCHER_ENV_VARIANT:-default} ;\
   else \
     echo "Installing ${DISPATCHER_ENV_VARIANT} environment unlocked" ;\
-    rm pixi.lock
+    rm pixi.lock ;\
     pixi install -e ${DISPATCHER_ENV_VARIANT:-default} ;\
   fi
 RUN pixi shell-hook -s bash > shell-hook
