@@ -1,7 +1,7 @@
 ARG PIXI_VERSION=0.63.1
 FROM ghcr.io/prefix-dev/pixi:${PIXI_VERSION}-bookworm AS build
 
-ARG LOCKED=yes
+ARG FROZEN=yes
 ARG DISPATCHER_ENV_VARIANT=default
 
 RUN apt-get update && apt-get install -y git curl gcc
@@ -10,12 +10,11 @@ WORKDIR /app
 COPY . .
 
 RUN pixi config set --local run-post-link-scripts insecure
-RUN if [ "${LOCKED:-yes}" = "yes" ]; then \
-    echo "Installing locked ${DISPATCHER_ENV_VARIANT} environment" ;\
-    pixi install --locked -e ${DISPATCHER_ENV_VARIANT:-default} ;\
+RUN if [ "${FROZEN:-yes}" = "yes" ]; then \
+    echo "Installing frozen ${DISPATCHER_ENV_VARIANT} environment" ;\
+    pixi install --frozen -e ${DISPATCHER_ENV_VARIANT:-default} ;\
   else \
     echo "Installing ${DISPATCHER_ENV_VARIANT} environment unlocked" ;\
-    rm pixi.lock ;\
     pixi install -e ${DISPATCHER_ENV_VARIANT:-default} ;\
   fi
 RUN pixi shell-hook -s bash > shell-hook

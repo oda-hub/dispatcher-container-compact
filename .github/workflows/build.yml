@@ -55,4 +55,4 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
-            LOCKED=${{ github.event_name == 'schedule' && 'no' || 'yes' }}
+            FROZEN=${{ github.event_name == 'schedule' && 'no' || 'yes' }}
