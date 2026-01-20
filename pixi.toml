@@ -33,7 +33,7 @@ cdci-osa-plugin = { git = "https://github.com/oda-hub/dispatcher-plugin-integral
 ddaclient = { git = "https://github.com/oda-hub/ddaclient.git", branch="master" }
 
 [feature.nb2workflow.pypi-dependencies]
-dispatcher-plugin-nb2workflow = { git = "https://github.com/oda-hub/dispatcher-plugin-nb2workflow", branch="pyproject-toml"}
+dispatcher-plugin-nb2workflow = { git = "https://github.com/oda-hub/dispatcher-plugin-nb2workflow", branch="master"}
 
 [feature.polar.pypi-dependencies]
 cdci-polar-plugin = { git = "https://github.com/oda-hub/dispatcher-plugin-polar", branch="master" }

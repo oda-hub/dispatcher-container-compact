@@ -11,10 +11,11 @@ COPY . .
 
 RUN pixi config set --local run-post-link-scripts insecure
 RUN if [ "${LOCKED:-yes}" = "yes" ]; then \
-    echo "Installing ${DISPATCHER_ENV_VARIANT} environment with --locked" ;\
+    echo "Installing locked ${DISPATCHER_ENV_VARIANT} environment" ;\
     pixi install --locked -e ${DISPATCHER_ENV_VARIANT:-default} ;\
   else \
-    echo "Installing ${DISPATCHER_ENV_VARIANT} environment without" ;\
+    echo "Installing ${DISPATCHER_ENV_VARIANT} environment unlocked" ;\
+    rm pixi.lock
     pixi install -e ${DISPATCHER_ENV_VARIANT:-default} ;\
   fi
 RUN pixi shell-hook -s bash > shell-hook

@@ -106,10 +106,10 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
       - pypi: git+https://github.com/oda-hub/ddaclient.git?branch=master#c61d56217609ac0f6e9634413617d9d7789525d8
       - pypi: https://files.pythonhosted.org/packages/4e/8c/f3147f5c4b73e7550fe5f9352eaa956ae838d5c51eb58e7a25b9f3e2643b/decorator-5.2.1-py3-none-any.whl
-      - pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#d0c35ed79803f4ad0d6ff5faa65308acc3147c71
+      - pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#41499f1d680010c8adf23e113e1b906e6eba79df
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral?branch=master#9de9940325cb148124270f86a43a45e4b2616db9
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral-all-sky?branch=master#cd0b46dcd9eaa58a8adb753e338525210d3aa9cb
-      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=pyproject-toml#226683603e95250f6959a1e3b59e7393fe2bd634
+      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=master#d40a52ae8964d66848c737bb1bb1e71f7eebe9bb
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-polar?branch=master#8061c77e3a9a9fed1a497c9327b88ac198a86123
       - pypi: https://files.pythonhosted.org/packages/36/64/580c74003a356c5662e7b1da43ecd7cbda6e8f970c87b30c5a654c8ccb53/dynaconf-3.2.11-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/42/14/42b2651a2f46b022ccd948bca9f2d5af0fd8929c4eec235b8d6d844fbe67/filelock-3.19.1-py3-none-any.whl
@@ -298,8 +298,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/c1/53/0f51e926799025e31746d454ab2e36f8c3f0d41592bc65cb9840368d3275/cryptography-46.0.2-cp311-abi3-manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4e/8c/f3147f5c4b73e7550fe5f9352eaa956ae838d5c51eb58e7a25b9f3e2643b/decorator-5.2.1-py3-none-any.whl
-      - pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#d0c35ed79803f4ad0d6ff5faa65308acc3147c71
-      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=pyproject-toml#226683603e95250f6959a1e3b59e7393fe2bd634
+      - pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#41499f1d680010c8adf23e113e1b906e6eba79df
+      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=master#d40a52ae8964d66848c737bb1bb1e71f7eebe9bb
       - pypi: https://files.pythonhosted.org/packages/cd/77/59df23681f4fd19b7cbbb5e92484d46ad587554f5d490f33ef907e456132/Flask-2.0.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/18/71/5f0ae8cd4ccddd37161fe573d1bf5666825ca2a55c75672caf04a4b16674/flask_restx-1.2.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2d/8b/371ab3cec97ee3fe1126b3406b7abd60c8fec8975fd79a3c75cdea0c3d83/fonttools-4.60.1-cp313-cp313-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
@@ -698,7 +698,7 @@ packages:
   - filelock>=3.8.0 ; extra == 'filecache'
   - redis>=2.10.5 ; extra == 'redis'
   requires_python: '>=3.9'
-- pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#d0c35ed79803f4ad0d6ff5faa65308acc3147c71
+- pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#41499f1d680010c8adf23e113e1b906e6eba79df
   name: cdci-data-analysis
   version: 1.3.5
   requires_dist:
@@ -965,7 +965,7 @@ packages:
   - numpy
   - pytest ; extra == 'test'
   - pytest-depends ; extra == 'test'
-- pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=pyproject-toml#226683603e95250f6959a1e3b59e7393fe2bd634
+- pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=master#d40a52ae8964d66848c737bb1bb1e71f7eebe9bb
   name: dispatcher-plugin-nb2workflow
   version: 1.0.0
   requires_dist:
