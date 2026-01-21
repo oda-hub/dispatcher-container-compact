@@ -18,6 +18,7 @@ RUN if [ "${FROZEN:-yes}" = "yes" ]; then \
     pixi install -e ${DISPATCHER_ENV_VARIANT:-default} ;\
   fi
 RUN pixi shell-hook -s bash > shell-hook
+RUN sed -i '1 r shell-hook' entrypoint.sh
 RUN sh /app/dummy-data-loader.sh 
 
 FROM debian:bookworm-slim AS runtime
