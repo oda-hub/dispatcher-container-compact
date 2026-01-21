@@ -19,7 +19,7 @@ RUN if [ "${FROZEN:-yes}" = "yes" ]; then \
   fi
 RUN pixi shell-hook -s bash > shell-hook
 RUN sed -i '1 r shell-hook' entrypoint.sh
-RUN sed -i '1 a\echo $$HOME; ls -la $$HOME' entrypoint.sh
+RUN sed -i '1 a echo $HOME; ls -la $HOME' entrypoint.sh
 RUN sh /app/dummy-data-loader.sh 
 
 FROM debian:bookworm-slim AS runtime
