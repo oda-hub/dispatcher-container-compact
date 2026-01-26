@@ -104,6 +104,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
       - pypi: git+https://github.com/oda-hub/ddaclient.git?branch=master#c61d56217609ac0f6e9634413617d9d7789525d8
       - pypi: https://files.pythonhosted.org/packages/4e/8c/f3147f5c4b73e7550fe5f9352eaa956ae838d5c51eb58e7a25b9f3e2643b/decorator-5.2.1-py3-none-any.whl
+      - pypi: direct+https://github.com/oda-hub/oda-kb/archive/refs/heads/dependencies-cleanup.zip
       - pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#41499f1d680010c8adf23e113e1b906e6eba79df
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral?branch=master#9de9940325cb148124270f86a43a45e4b2616db9
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral-all-sky?branch=master#cd0b46dcd9eaa58a8adb753e338525210d3aa9cb
@@ -143,7 +144,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/5d/ba/459f18c16f2b3fc1a1ca871f72f07d70c07bf768ad0a507a698b8052ac58/msgpack-1.1.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl
-      - pypi: git+https://github.com/oda-hub/oda-kb?branch=dependencies-cleanup#af2188213cb5537669ff78b1b56d3e9b872f9057
       - pypi: git+https://github.com/oda-hub/oda_api.git?branch=master#948c868ad2f01b1996c10354628c98dcdcdd72a1
       - pypi: https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/15/07/284f757f63f8a8d69ed4472bfd85122bd086e637bf4ed09de572d575a693/pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
@@ -1967,7 +1967,7 @@ packages:
   - gwpy ; extra == 'gw'
   - ligo-skymap ; extra == 'gw'
   requires_python: '>=3.10'
-- pypi: git+https://github.com/oda-hub/oda-kb?branch=dependencies-cleanup#af2188213cb5537669ff78b1b56d3e9b872f9057
+- pypi: direct+https://github.com/oda-hub/oda-kb/archive/refs/heads/dependencies-cleanup.zip
   name: oda-knowledge-base
   version: 0.8.0
   requires_dist:
