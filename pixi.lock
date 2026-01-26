@@ -79,8 +79,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/59/75/e0e10dc7ed1408c28e03a6cb2d7a407f99320eb953f229d008a7a6d05546/aniso8601-10.0.1-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/57/09/0c2874e3e8c53250b40afa7399c70acf7d23cac80138f1792ea3797f7452/antlr4_python3_runtime-4.13.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/74/f5/9373290775639cb67a2fce7f629a1c240dce9f12fe927bc32b2736e16dfc/argcomplete-3.6.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/4f/d3/a8b22fa575b297cd6e3e3b0155c7e25db170edf1c74783d6a31a2490b8d9/argon2_cffi-25.1.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/09/52/94108adfdd6e2ddf58be64f959a0b9c7d4ef2fa71086c38356d22dc501ea/argon2_cffi_bindings-25.1.0-cp39-abi3-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/c3/1c/f06ad85180e7dd9855aa5ede901bfc2be858d7bee17d4e978a14c0ecec14/astropy-7.2.0-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/06/bc/9fc60c786e9ecb706bf0fbfb1aed2e3a46d9d4695a7a3d8b6f6831aaf73f/astropy_iers_data-0.2026.1.19.0.42.31-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e3/ca/944b328f2c60b83896a9223312e21e46cdc1fef57565e853da4544ff6a8e/astroquery-0.4.11-py3-none-any.whl
@@ -106,6 +104,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
       - pypi: git+https://github.com/oda-hub/ddaclient.git?branch=master#c61d56217609ac0f6e9634413617d9d7789525d8
       - pypi: https://files.pythonhosted.org/packages/4e/8c/f3147f5c4b73e7550fe5f9352eaa956ae838d5c51eb58e7a25b9f3e2643b/decorator-5.2.1-py3-none-any.whl
+      - pypi: direct+https://github.com/oda-hub/oda-kb/archive/refs/heads/dependencies-cleanup.zip
       - pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#41499f1d680010c8adf23e113e1b906e6eba79df
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral?branch=master#9de9940325cb148124270f86a43a45e4b2616db9
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral-all-sky?branch=master#cd0b46dcd9eaa58a8adb753e338525210d3aa9cb
@@ -131,7 +130,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/ae/fd/e3edcf827e7f9c17c5ea1a192841dcfb1dd575a7518c25c5cadd921625b1/json_tricks-3.17.3-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c1/97/c698bd9350f307daad79dd740806e1a59becd693bd11443a0f531e3229b3/jsonschema-4.17.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/81/db/e655086b7f3a705df045bf0933bdd9c2f79bb3c97bfef1384598bb79a217/keyring-25.7.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/b4/6b/cfac8adda2ae988073f0cdb10b88eb1ab0beba9cbe16b9d3ebd4d9dad0c9/keyrings.cryptfile-1.3.9.tar.gz
       - pypi: https://files.pythonhosted.org/packages/e9/e9/f218a2cb3a9ffbe324ca29a9e399fa2d2866d7f348ec3a88df87fc248fc5/kiwisolver-1.4.9-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/7a/1c/8e9c092e0faa0eb5ac8f5e859a62bd82239eba0259c05f6fd9bb6ddd6b91/logging_tree-1.10-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d0/34/9e591954939276bb679b73773836c6684c22e56d05980e31d52a9a8deb18/lxml-6.0.2-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl
@@ -147,11 +145,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl
       - pypi: git+https://github.com/oda-hub/oda_api.git?branch=master#948c868ad2f01b1996c10354628c98dcdcdd72a1
-      - pypi: https://files.pythonhosted.org/packages/2b/79/b63283306a8f321c4d8f3e32e1aed8d0ab1200ea20c78a28efe5c2e446ec/oda_knowledge_base-0.7.28-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/15/07/284f757f63f8a8d69ed4472bfd85122bd086e637bf4ed09de572d575a693/pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/7c/50/11c9ee1ede64b45d687fd36eb8768dafc57afc78b4d83396920cfd69ed30/path-17.1.1-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/8f/04/130b7a538c25693c85c4dee7e25d126ebf5511b1eb7320e64906687b159e/path.py-12.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/32/2b/121e912bd60eebd623f873fd090de0e84f322972ab25a7f9044c056804ed/pathspec-1.0.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/01/9a/632e58ec89a32738cabfd9ec418f0e9898a2b4719afc581f07c04a05e3c9/pillow-12.1.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cb/28/3bfe2fa5a7b9c46fe7e13c97bda14c895fb10fa2ebf1d0abb90e0cea7ee1/platformdirs-4.5.1-py3-none-any.whl
@@ -161,7 +157,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/89/8d/9d12bc8677c24dad342ec777529bce705b3e785fa05d85122b5502b9ab55/psycopg2-2.9.11.tar.gz
       - pypi: https://files.pythonhosted.org/packages/91/ed/1e347d85d05b37a8b9a039ca832e5747e1e5248d0bd66042783ef48b4a37/puremagic-1.30-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a0/e3/59cd50310fc9b59512193629e1984c1f95e5c8ae6e5d8c69532ccc65a7fe/pycparser-2.23-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/5f/e9/a09476d436d0ff1402ac3867d933c61805ec2326c6ea557aeeac3825604e/pycryptodome-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/7e/32/a7125fb28c4261a627f999d5fb4afff25b523800faed2c30979949d6facd/pydot-4.0.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e5/e0/050018d855d26d3c0b4a7d1b2ed692be758ce276d8289e2a2b44ba1014a5/pyerfa-2.0.1.5-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl
@@ -410,21 +405,6 @@ packages:
   - ruff ; extra == 'test'
   - wheel ; extra == 'test'
   requires_python: '>=3.8'
-- pypi: https://files.pythonhosted.org/packages/4f/d3/a8b22fa575b297cd6e3e3b0155c7e25db170edf1c74783d6a31a2490b8d9/argon2_cffi-25.1.0-py3-none-any.whl
-  name: argon2-cffi
-  version: 25.1.0
-  sha256: fdc8b074db390fccb6eb4a3604ae7231f219aa669a2652e0f20e16ba513d5741
-  requires_dist:
-  - argon2-cffi-bindings
-  requires_python: '>=3.8'
-- pypi: https://files.pythonhosted.org/packages/09/52/94108adfdd6e2ddf58be64f959a0b9c7d4ef2fa71086c38356d22dc501ea/argon2_cffi_bindings-25.1.0-cp39-abi3-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl
-  name: argon2-cffi-bindings
-  version: 25.1.0
-  sha256: d3e924cfc503018a714f94a49a149fdc0b644eaead5d1f089330399134fa028a
-  requires_dist:
-  - cffi>=1.0.1 ; python_full_version < '3.14'
-  - cffi>=2.0.0b1 ; python_full_version >= '3.14'
-  requires_python: '>=3.9'
 - pypi: https://files.pythonhosted.org/packages/c3/1c/f06ad85180e7dd9855aa5ede901bfc2be858d7bee17d4e978a14c0ecec14/astropy-7.2.0-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
   name: astropy
   version: 7.2.0
@@ -1315,16 +1295,6 @@ packages:
   - types-pywin32 ; extra == 'type'
   - shtab>=1.1.0 ; extra == 'completion'
   requires_python: '>=3.9'
-- pypi: https://files.pythonhosted.org/packages/b4/6b/cfac8adda2ae988073f0cdb10b88eb1ab0beba9cbe16b9d3ebd4d9dad0c9/keyrings.cryptfile-1.3.9.tar.gz
-  name: keyrings-cryptfile
-  version: 1.3.9
-  sha256: 7c2a453cab9985426b8c21f7ad54a57e49ff8e819ba18e08340bd8801acf0091
-  requires_dist:
-  - argon2-cffi
-  - jaraco-classes
-  - keyring>=20.0.0
-  - pycryptodome
-  requires_python: '>=3.5'
 - conda: https://conda.anaconda.org/conda-forge/linux-64/keyutils-1.6.3-hb9d3cd8_0.conda
   sha256: 0960d06048a7185d3542d850986d807c6e37ca2e644342dd0c72feefcf26c2a4
   md5: b38117a3c920364aff79f870c984b4a3
@@ -1997,18 +1967,12 @@ packages:
   - gwpy ; extra == 'gw'
   - ligo-skymap ; extra == 'gw'
   requires_python: '>=3.10'
-- pypi: https://files.pythonhosted.org/packages/2b/79/b63283306a8f321c4d8f3e32e1aed8d0ab1200ea20c78a28efe5c2e446ec/oda_knowledge_base-0.7.28-py2.py3-none-any.whl
+- pypi: direct+https://github.com/oda-hub/oda-kb/archive/refs/heads/dependencies-cleanup.zip
   name: oda-knowledge-base
-  version: 0.7.28
-  sha256: 48848bde443b5e439b8f3773b81ca0e2d3e7d12fcb2c3213a6432434f935db09
+  version: 0.8.0
   requires_dist:
-  - lxml
-  - six
-  - coloredlogs
-  - path-py
+  - path
   - minio<7.0.0
-  - keyring
-  - keyrings-cryptfile
   - click
   - pyyaml
   - numpy
@@ -2016,11 +1980,12 @@ packages:
   - dynaconf
   - html2text
   - pluggy
-  - cwltool ; extra == 'cwl'
   - nb2workflow ; extra == 'notebook'
   - papermill ; extra == 'notebook'
   - rdflib ; extra == 'rdf'
   - rdflib-jsonld ; extra == 'rdf'
+  - cwltool ; extra == 'cwl'
+  requires_python: '>=3.10'
 - conda: https://conda.anaconda.org/conda-forge/linux-64/openldap-2.6.10-he970967_0.conda
   sha256: cb0b07db15e303e6f0a19646807715d28f1264c6350309a559702f4f34f37892
   md5: 2e5bf4f1da39c0b32778561c3c4e5878
@@ -2168,24 +2133,6 @@ packages:
   - pytest-enabler>=2.2 ; extra == 'enabler'
   - pytest-mypy ; extra == 'type'
   requires_python: '>=3.9'
-- pypi: https://files.pythonhosted.org/packages/8f/04/130b7a538c25693c85c4dee7e25d126ebf5511b1eb7320e64906687b159e/path.py-12.5.0-py3-none-any.whl
-  name: path-py
-  version: 12.5.0
-  sha256: a43e82eb2c344c3fd0b9d6352f6b856f40b8b7d3d65cc05978b42c3715668496
-  requires_dist:
-  - path
-  - sphinx ; extra == 'docs'
-  - jaraco-packaging>=3.2 ; extra == 'docs'
-  - rst-linker>=1.9 ; extra == 'docs'
-  - pytest>=3.5,!=3.7.3 ; extra == 'testing'
-  - pytest-checkdocs>=1.2.3 ; extra == 'testing'
-  - pytest-flake8 ; extra == 'testing'
-  - pytest-black-multipy ; extra == 'testing'
-  - pytest-cov ; extra == 'testing'
-  - appdirs ; extra == 'testing'
-  - packaging ; extra == 'testing'
-  - pygments ; extra == 'testing'
-  requires_python: '>=3.5'
 - pypi: https://files.pythonhosted.org/packages/32/2b/121e912bd60eebd623f873fd090de0e84f322972ab25a7f9044c056804ed/pathspec-1.0.3-py3-none-any.whl
   name: pathspec
   version: 1.0.3
@@ -2328,11 +2275,6 @@ packages:
   version: '2.23'
   sha256: e5c6e8d3fbad53479cab09ac03729e0a9faf2bee3db8208a550daf5af81a5934
   requires_python: '>=3.8'
-- pypi: https://files.pythonhosted.org/packages/5f/e9/a09476d436d0ff1402ac3867d933c61805ec2326c6ea557aeeac3825604e/pycryptodome-3.23.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-  name: pycryptodome
-  version: 3.23.0
-  sha256: c8987bd3307a39bc03df5c8e0e3d8be0c4c3518b7f044b0f4c15d1aa78f52575
-  requires_python: '>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*'
 - pypi: https://files.pythonhosted.org/packages/7e/32/a7125fb28c4261a627f999d5fb4afff25b523800faed2c30979949d6facd/pydot-4.0.1-py3-none-any.whl
   name: pydot
   version: 4.0.1
