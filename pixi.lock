@@ -104,9 +104,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
       - pypi: git+https://github.com/oda-hub/ddaclient.git?branch=master#c61d56217609ac0f6e9634413617d9d7789525d8
       - pypi: https://files.pythonhosted.org/packages/4e/8c/f3147f5c4b73e7550fe5f9352eaa956ae838d5c51eb58e7a25b9f3e2643b/decorator-5.2.1-py3-none-any.whl
-      - pypi: direct+https://github.com/oda-hub/oda-kb/archive/refs/heads/dependencies-cleanup.zip
-      - pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#41499f1d680010c8adf23e113e1b906e6eba79df
-      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral?branch=master#9de9940325cb148124270f86a43a45e4b2616db9
+      - pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#caec78179e7278da48614b195ec1cd8e3ad2326c
+      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral?branch=master#1005dac302033f457d5b3cef16a503f0ff37a58c
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral-all-sky?branch=master#cd0b46dcd9eaa58a8adb753e338525210d3aa9cb
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=master#d40a52ae8964d66848c737bb1bb1e71f7eebe9bb
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-polar?branch=master#8061c77e3a9a9fed1a497c9327b88ac198a86123
@@ -136,6 +135,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/94/54/e7d793b573f298e1c9013b8c4dade17d481164aa517d1d7148619c2cedbf/markdown_it_py-4.0.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a9/21/9b05698b46f218fc0e118e1f8168395c65c8a2c750ae2bab54fc4bd4e0e8/markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/af/82/d8c37cc92948ce11e5d8d71602bbac7ac4257f9e1f918fd91b1ddac4ec97/marshmallow-3.23.3-py3-none-any.whl
+      - pypi: direct+https://github.com/oda-hub/oda-kb/archive/refs/heads/master.zip
       - pypi: https://files.pythonhosted.org/packages/75/97/a471f1c3eb1fd6f6c24a31a5858f443891d5127e63a7788678d14e249aea/matplotlib-3.10.8-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9e/6f/3df7e07e2b1642049a0d00e33e11b406d1d4686bd1f8ddb56962978c3653/minio-6.0.2-py2.py3-none-any.whl
@@ -144,7 +144,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/5d/ba/459f18c16f2b3fc1a1ca871f72f07d70c07bf768ad0a507a698b8052ac58/msgpack-1.1.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl
-      - pypi: git+https://github.com/oda-hub/oda_api.git?branch=master#948c868ad2f01b1996c10354628c98dcdcdd72a1
+      - pypi: git+https://github.com/oda-hub/oda_api.git#27665448856365023ecfaab72904c9cfe8b2d7af
       - pypi: https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/15/07/284f757f63f8a8d69ed4472bfd85122bd086e637bf4ed09de572d575a693/pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/7c/50/11c9ee1ede64b45d687fd36eb8768dafc57afc78b4d83396920cfd69ed30/path-17.1.1-py3-none-any.whl
@@ -172,7 +172,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/66/27/c16e0ba0861c4cd82d4fb014eb2769455e5ee87887640b7d5d971a8b1323/pyvo-1.8-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/74/27/e5b8f34d02d9995b80abcef563ea1f8b56d20134d8f4e5e81733b1feceb2/pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/0c/45/0a6faf18b0745f5815d23682925c26f44070f762c8cf451746d81355e05f/queryparser_python3-0.7.4-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/bd/8e/62e26a88c0a1bbae677200baf0767c1022321a6555634f8129e6d55c5ddc/raven-6.10.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b9/20/35d2baebacf357b562bd081936b66cd845775442973cb033a377fd639a84/rdflib-7.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/29/92/da92898b2aab0da78207afc9c035a71bedef3544966374c44e9627d761c5/rdflib_jsonld-0.6.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/89/f0/8956f8a86b20d7bb9d6ac0187cf4cd54d8065bc9a1a09eb8011d4d326596/redis-7.1.0-py3-none-any.whl
@@ -671,11 +670,45 @@ packages:
   - nbformat ; extra == 'renku'
   - giturlparse ; extra == 'renku'
   requires_python: '>=3.10'
-- pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral?branch=master#9de9940325cb148124270f86a43a45e4b2616db9
+- pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#caec78179e7278da48614b195ec1cd8e3ad2326c
+  name: cdci-data-analysis
+  version: 1.3.5
+  requires_dist:
+  - oda-api @ git+https://github.com/oda-hub/oda_api.git
+  - numpy
+  - pyyaml
+  - flask==2.0.3
+  - astropy>=6.1
+  - gunicorn
+  - decorator
+  - python-logstash
+  - pylogstash-context
+  - blinker
+  - bokeh>3.0,<3.2
+  - json-tricks
+  - flask-restx==1.2.0
+  - werkzeug==2.0.3
+  - logging-tree
+  - pyjwt
+  - marshmallow<3.24
+  - black>=22.10.0
+  - bs4
+  - sentry-sdk
+  - validators==0.28.3
+  - jsonschema<=4.17.3
+  - rdflib>=6.2.0 ; extra == 'ontology'
+  - celery ; extra == 'async'
+  - queryparser-python3>=0.6.1 ; extra == 'ivoa'
+  - psycopg2 ; extra == 'ivoa'
+  - gitpython ; extra == 'renku'
+  - nbformat ; extra == 'renku'
+  - giturlparse ; extra == 'renku'
+  requires_python: '>=3.10'
+- pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral?branch=master#1005dac302033f457d5b3cef16a503f0ff37a58c
   name: cdci-osa-plugin
   version: '2.0'
   requires_dist:
-  - ddaclient
+  - ddaclient @ git+https://github.com/oda-hub/ddaclient.git@master
   - oda-knowledge-base[rdf,cwl]
   - astropy
   - simple-logger
@@ -1967,7 +2000,28 @@ packages:
   - gwpy ; extra == 'gw'
   - ligo-skymap ; extra == 'gw'
   requires_python: '>=3.10'
-- pypi: direct+https://github.com/oda-hub/oda-kb/archive/refs/heads/dependencies-cleanup.zip
+- pypi: git+https://github.com/oda-hub/oda_api.git#27665448856365023ecfaab72904c9cfe8b2d7af
+  name: oda-api
+  version: 1.3.2
+  requires_dist:
+  - requests
+  - astropy>=6.1
+  - json-tricks
+  - matplotlib>=3.10
+  - bokeh>3.0,<3.2
+  - numpy>=2.0 ; python_full_version >= '3.11'
+  - numpy<2.0 ; python_full_version < '3.11'
+  - jsonschema
+  - pyjwt
+  - astroquery>=0.4.4
+  - scipy
+  - rdflib
+  - puremagic
+  - click>=8.2.1
+  - gwpy ; extra == 'gw'
+  - ligo-skymap ; extra == 'gw'
+  requires_python: '>=3.10'
+- pypi: direct+https://github.com/oda-hub/oda-kb/archive/refs/heads/master.zip
   name: oda-knowledge-base
   version: 0.8.0
   requires_dist:
