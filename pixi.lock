@@ -104,15 +104,15 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
       - pypi: git+https://github.com/oda-hub/ddaclient.git?branch=master#c61d56217609ac0f6e9634413617d9d7789525d8
       - pypi: https://files.pythonhosted.org/packages/4e/8c/f3147f5c4b73e7550fe5f9352eaa956ae838d5c51eb58e7a25b9f3e2643b/decorator-5.2.1-py3-none-any.whl
-      - pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#caec78179e7278da48614b195ec1cd8e3ad2326c
-      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral?branch=master#1005dac302033f457d5b3cef16a503f0ff37a58c
-      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral-all-sky?branch=master#cd0b46dcd9eaa58a8adb753e338525210d3aa9cb
-      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=master#d40a52ae8964d66848c737bb1bb1e71f7eebe9bb
+      - pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#955494bf49f286aa1e734b4ab5fd1a47dbfa4c71
+      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral?branch=master#9c4017c16b023367815abf0563d9b205522c3140
+      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral-all-sky?branch=master#dd9f349936b3c0187471e332e92eeb19bb408545
+      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=master#cb3c862624e6d8df24b3f8f5243e287930def197
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-polar?branch=master#8061c77e3a9a9fed1a497c9327b88ac198a86123
       - pypi: https://files.pythonhosted.org/packages/26/68/51adede38ab2ee9ecfddb8b60a80a42b618a72f1018fcf60974e5d852831/dynaconf-3.2.12-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b5/36/7fb70f04bf00bc646cd5bb45aa9eddb15e19437a28b8fb2b4a5249fac770/filelock-3.20.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/cd/77/59df23681f4fd19b7cbbb5e92484d46ad587554f5d490f33ef907e456132/Flask-2.0.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/18/71/5f0ae8cd4ccddd37161fe573d1bf5666825ca2a55c75672caf04a4b16674/flask_restx-1.2.0-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/7f/9c/34f6962f9b9e9c71f6e5ed806e0d0ff03c9d1b0b2340088a0cf4bce09b18/flask-3.1.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/7a/3f/b82cd8e733a355db1abb8297afbf59ec972c00ef90bf8d4eed287958b204/flask_restx-1.3.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a3/4b/d67eedaed19def5967fade3297fed8161b25ba94699efc124b14fb68cdbc/fonttools-4.61.1-cp313-cp313-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/cb/7d/6dac2a6e1eba33ee43f318edbed4ff29151a49b5d37f080aad1e6469bca4/gunicorn-23.0.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1d/84/1a0f9555fd5f2b1c924ff932d99b40a0f8a6b12f6dd625e2a47f415b00ea/html2text-2025.4.15-py3-none-any.whl
@@ -144,7 +144,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/5d/ba/459f18c16f2b3fc1a1ca871f72f07d70c07bf768ad0a507a698b8052ac58/msgpack-1.1.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl
-      - pypi: git+https://github.com/oda-hub/oda_api.git#27665448856365023ecfaab72904c9cfe8b2d7af
+      - pypi: https://files.pythonhosted.org/packages/db/24/cf328ec87a7233cc088a99eedb4549dea166d802cd6320618f71075b0b3a/oda_api-1.3.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/15/07/284f757f63f8a8d69ed4472bfd85122bd086e637bf4ed09de572d575a693/pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/7c/50/11c9ee1ede64b45d687fd36eb8768dafc57afc78b4d83396920cfd69ed30/path-17.1.1-py3-none-any.whl
@@ -166,7 +166,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/23/88/0acd180010aaed4987c85700b7cc17f9505f3edb4e5873e4dc67f613e338/pyrsistent-0.20.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/f7/3b/c3a957bbdd23859f07905fc3d1adfe89957217a347478c58409f0315cf1d/python-logstash-0.4.8.tar.gz
       - pypi: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/6c/73/9f872cb81fc5c3bb48f7227872c28975f998f3e7c2b1c16e95e6432bbb90/python_magic-0.4.27-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ab/96/04102856b9527701ae57d74a6393d1aca5bad18a1b1ca48ccffb3c93b392/pytokens-0.4.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/66/27/c16e0ba0861c4cd82d4fb014eb2769455e5ee87887640b7d5d971a8b1323/pyvo-1.8-py3-none-any.whl
@@ -175,9 +174,11 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/b9/20/35d2baebacf357b562bd081936b66cd845775442973cb033a377fd639a84/rdflib-7.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/29/92/da92898b2aab0da78207afc9c035a71bedef3544966374c44e9627d761c5/rdflib_jsonld-0.6.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/89/f0/8956f8a86b20d7bb9d6ac0187cf4cd54d8065bc9a1a09eb8011d4d326596/redis-7.1.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1e/db/4254e3eabe8020b458f1a747140d32277ec7a271daf1d235b70dc0b4e6e3/requests-2.32.5-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/25/7a/b0178788f8dc6cafce37a212c99565fa1fe7872c70c6c9c1e1a372d9d88f/rich-14.2.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/04/80/97b6f357ac458d9ad9872cc3183ca09ef7439ac89e030ea43053ba1294b6/rich_argparse-1.7.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b7/de/f7192e12b21b9e9a68a6d0f249b4af3fdcdff8418be0767a627564afa1f1/rpds_py-0.30.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/af/fe/b6045c782f1fd1ae317d2a6ca1884857ce5c20f59befe6ab25a8603c43a7/ruamel_yaml-0.18.17-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ff/5d/e4f84c9c448613e12bd62e90b23aa127ea4c46b697f3d760acc32cb94f25/ruamel_yaml_clib-0.2.15-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/54/38/13b42e1d4ddd2393c5c2c843b43b2359d062daac3aab190a0e2547a2668f/schema_salad-8.9.20251102115403-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
@@ -194,7 +195,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/39/08/aaaad47bc4e9dc8c725e68f9d04865dbcb2052843ff09c97b08904852d84/urllib3-2.6.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1f/75/ade0cc0c65fd345685ebd55a688ee5389834db5270316285a8ab17bc75b8/validators-0.28.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/f4/f3/22afbdb20cc4654b10c98043414a14057cd27fdba9d4ae61cea596000ba2/Werkzeug-2.0.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/93/8c/2e650f2afeb7ee576912636c23ddb621c91ac6a98e66dc8d29c3c69446e1/werkzeug-3.1.8-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ef/5c/2c189d18d495dd0fa3f27ccc60762bbc787eed95b9b0147266e72bb76585/xyzservices-2025.11.0-py3-none-any.whl
   nbonly:
     channels:
@@ -670,14 +671,14 @@ packages:
   - nbformat ; extra == 'renku'
   - giturlparse ; extra == 'renku'
   requires_python: '>=3.10'
-- pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#caec78179e7278da48614b195ec1cd8e3ad2326c
+- pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#955494bf49f286aa1e734b4ab5fd1a47dbfa4c71
   name: cdci-data-analysis
-  version: 1.3.5
+  version: 1.3.6
   requires_dist:
-  - oda-api @ git+https://github.com/oda-hub/oda_api.git
+  - oda-api>=1.3.0
   - numpy
   - pyyaml
-  - flask==2.0.3
+  - flask>=3.1.3
   - astropy>=6.1
   - gunicorn
   - decorator
@@ -686,16 +687,15 @@ packages:
   - blinker
   - bokeh>3.0,<3.2
   - json-tricks
-  - flask-restx==1.2.0
-  - werkzeug==2.0.3
+  - flask-restx
   - logging-tree
   - pyjwt
-  - marshmallow<3.24
+  - marshmallow<4.0
   - black>=22.10.0
   - bs4
   - sentry-sdk
-  - validators==0.28.3
-  - jsonschema<=4.17.3
+  - validators
+  - jsonschema
   - rdflib>=6.2.0 ; extra == 'ontology'
   - celery ; extra == 'async'
   - queryparser-python3>=0.6.1 ; extra == 'ivoa'
@@ -704,7 +704,7 @@ packages:
   - nbformat ; extra == 'renku'
   - giturlparse ; extra == 'renku'
   requires_python: '>=3.10'
-- pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral?branch=master#1005dac302033f457d5b3cef16a503f0ff37a58c
+- pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral?branch=master#9c4017c16b023367815abf0563d9b205522c3140
   name: cdci-osa-plugin
   version: '2.0'
   requires_dist:
@@ -927,15 +927,24 @@ packages:
   version: 5.2.1
   sha256: d316bb415a2d9e2d2b3abcc4084c6502fc09240e292cd76a76afc106a1c8e04a
   requires_python: '>=3.8'
-- pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral-all-sky?branch=master#cd0b46dcd9eaa58a8adb753e338525210d3aa9cb
+- pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral-all-sky?branch=master#dd9f349936b3c0187471e332e92eeb19bb408545
   name: dispatcher-plugin-integral-all-sky
   version: '1.0'
   requires_dist:
   - astropy
   - simple-logger
   - numpy
-  - pytest ; extra == 'test'
-  - pytest-depends ; extra == 'test'
+  - oda-api
+  - cdci-data-analysis
+  requires_python: '>=3.10'
+- pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=master#cb3c862624e6d8df24b3f8f5243e287930def197
+  name: dispatcher-plugin-nb2workflow
+  version: 1.0.0
+  requires_dist:
+  - rdflib
+  - puremagic
+  - cdci-data-analysis
+  requires_python: '>=3.10'
 - pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=master#d40a52ae8964d66848c737bb1bb1e71f7eebe9bb
   name: dispatcher-plugin-nb2workflow
   version: 1.0.0
@@ -1004,6 +1013,21 @@ packages:
   - asgiref>=3.2 ; extra == 'async'
   - python-dotenv ; extra == 'dotenv'
   requires_python: '>=3.6'
+- pypi: https://files.pythonhosted.org/packages/7f/9c/34f6962f9b9e9c71f6e5ed806e0d0ff03c9d1b0b2340088a0cf4bce09b18/flask-3.1.3-py3-none-any.whl
+  name: flask
+  version: 3.1.3
+  sha256: f4bcbefc124291925f1a26446da31a5178f9483862233b23c0c96a20701f670c
+  requires_dist:
+  - blinker>=1.9.0
+  - click>=8.1.3
+  - importlib-metadata>=3.6.0 ; python_full_version < '3.10'
+  - itsdangerous>=2.2.0
+  - jinja2>=3.1.2
+  - markupsafe>=2.1.1
+  - werkzeug>=3.1.0
+  - asgiref>=3.2 ; extra == 'async'
+  - python-dotenv ; extra == 'dotenv'
+  requires_python: '>=3.9'
 - pypi: https://files.pythonhosted.org/packages/18/71/5f0ae8cd4ccddd37161fe573d1bf5666825ca2a55c75672caf04a4b16674/flask_restx-1.2.0-py2.py3-none-any.whl
   name: flask-restx
   version: 1.2.0
@@ -1044,6 +1068,49 @@ packages:
   - tzlocal ; extra == 'test'
   - invoke==2.0.0 ; extra == 'test'
   - twine==3.8.0 ; extra == 'test'
+- pypi: https://files.pythonhosted.org/packages/7a/3f/b82cd8e733a355db1abb8297afbf59ec972c00ef90bf8d4eed287958b204/flask_restx-1.3.2-py2.py3-none-any.whl
+  name: flask-restx
+  version: 1.3.2
+  sha256: 6e035496e8223668044fc45bf769e526352fd648d9e159bd631d94fd645a687b
+  requires_dist:
+  - aniso8601>=0.82
+  - jsonschema
+  - referencing
+  - flask>=0.8,!=2.0.0
+  - werkzeug!=2.0.0
+  - importlib-resources
+  - blinker ; extra == 'dev'
+  - faker==2.0.0 ; extra == 'dev'
+  - mock==3.0.5 ; extra == 'dev'
+  - pytest==7.0.1 ; extra == 'dev'
+  - pytest-benchmark==3.4.1 ; extra == 'dev'
+  - pytest-cov==4.0.0 ; extra == 'dev'
+  - pytest-flask==1.3.0 ; extra == 'dev'
+  - pytest-mock==3.6.1 ; extra == 'dev'
+  - pytest-profiling==1.7.0 ; extra == 'dev'
+  - invoke==2.2.0 ; extra == 'dev'
+  - twine==3.8.0 ; extra == 'dev'
+  - setuptools ; extra == 'dev'
+  - tox ; extra == 'dev'
+  - black ; extra == 'dev'
+  - backports-zoneinfo ; python_full_version < '3.9' and extra == 'dev'
+  - alabaster==0.7.12 ; extra == 'doc'
+  - sphinx==5.3.0 ; extra == 'doc'
+  - sphinx-issues==3.0.1 ; extra == 'doc'
+  - blinker ; extra == 'test'
+  - faker==2.0.0 ; extra == 'test'
+  - mock==3.0.5 ; extra == 'test'
+  - pytest==7.0.1 ; extra == 'test'
+  - pytest-benchmark==3.4.1 ; extra == 'test'
+  - pytest-cov==4.0.0 ; extra == 'test'
+  - pytest-flask==1.3.0 ; extra == 'test'
+  - pytest-mock==3.6.1 ; extra == 'test'
+  - pytest-profiling==1.7.0 ; extra == 'test'
+  - invoke==2.2.0 ; extra == 'test'
+  - twine==3.8.0 ; extra == 'test'
+  - setuptools ; extra == 'test'
+  - backports-zoneinfo ; python_full_version < '3.9' and extra == 'test'
+  requires_python: '>=3.9'
 - pypi: https://files.pythonhosted.org/packages/a3/4b/d67eedaed19def5967fade3297fed8161b25ba94699efc124b14fb68cdbc/fonttools-4.61.1-cp313-cp313-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl
   name: fonttools
   version: 4.61.1
@@ -2000,9 +2067,10 @@ packages:
   - gwpy ; extra == 'gw'
   - ligo-skymap ; extra == 'gw'
   requires_python: '>=3.10'
-- pypi: git+https://github.com/oda-hub/oda_api.git#27665448856365023ecfaab72904c9cfe8b2d7af
+- pypi: https://files.pythonhosted.org/packages/db/24/cf328ec87a7233cc088a99eedb4549dea166d802cd6320618f71075b0b3a/oda_api-1.3.2-py3-none-any.whl
   name: oda-api
   version: 1.3.2
+  sha256: 03e537ae50995466af45f34dfc9c028a0aba52356b6d0f54db0c371a6e6b42ee
   requires_dist:
   - requests
   - astropy>=6.1
@@ -2591,6 +2659,15 @@ packages:
   - pyopenssl>=20.0.1 ; extra == 'ocsp'
   - requests>=2.31.0 ; extra == 'ocsp'
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl
+  name: referencing
+  version: 0.37.0
+  sha256: 381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231
+  requires_dist:
+  - attrs>=22.2.0
+  - rpds-py>=0.7.0
+  - typing-extensions>=4.4.0 ; python_full_version < '3.13'
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/1e/db/4254e3eabe8020b458f1a747140d32277ec7a271daf1d235b70dc0b4e6e3/requests-2.32.5-py3-none-any.whl
   name: requests
   version: 2.32.5
@@ -2619,6 +2696,11 @@ packages:
   requires_dist:
   - rich>=11.0.0
   requires_python: '>=3.8'
+- pypi: https://files.pythonhosted.org/packages/b7/de/f7192e12b21b9e9a68a6d0f249b4af3fdcdff8418be0767a627564afa1f1/rpds_py-0.30.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  name: rpds-py
+  version: 0.30.0
+  sha256: 9027da1ce107104c50c81383cae773ef5c24d296dd11c99e2629dbd7967a20c6
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/af/fe/b6045c782f1fd1ae317d2a6ca1884857ce5c20f59befe6ab25a8603c43a7/ruamel_yaml-0.18.17-py3-none-any.whl
   name: ruamel-yaml
   version: 0.18.17
@@ -2847,6 +2929,14 @@ packages:
   - dataclasses ; python_full_version < '3.7'
   - watchdog ; extra == 'watchdog'
   requires_python: '>=3.6'
+- pypi: https://files.pythonhosted.org/packages/93/8c/2e650f2afeb7ee576912636c23ddb621c91ac6a98e66dc8d29c3c69446e1/werkzeug-3.1.8-py3-none-any.whl
+  name: werkzeug
+  version: 3.1.8
+  sha256: 63a77fb8892bf28ebc3178683445222aa500e48ebad5ec77b0ad80f8726b1f50
+  requires_dist:
+  - markupsafe>=2.1.1
+  - watchdog>=2.3 ; extra == 'watchdog'
+  requires_python: '>=3.9'
 - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libice-1.1.2-hb9d3cd8_0.conda
   sha256: c12396aabb21244c212e488bbdc4abcdef0b7404b15761d9329f5a4a39113c4b
   md5: fb901ff28063514abb6046c9ec2c4a45
