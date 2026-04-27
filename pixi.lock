@@ -107,7 +107,7 @@ environments:
       - pypi: git+https://github.com/oda-hub/dispatcher-app.git?branch=master#955494bf49f286aa1e734b4ab5fd1a47dbfa4c71
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral?branch=master#9c4017c16b023367815abf0563d9b205522c3140
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-integral-all-sky?branch=master#dd9f349936b3c0187471e332e92eeb19bb408545
-      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=new-kg-schema#971e09ed3ff377c78508262ec695b385fac41a79
+      - pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=new-kg-schema#bcbb4ed9dfe45c1224719eeace662922b42cdaa4
       - pypi: git+https://github.com/oda-hub/dispatcher-plugin-polar?branch=master#8061c77e3a9a9fed1a497c9327b88ac198a86123
       - pypi: https://files.pythonhosted.org/packages/26/68/51adede38ab2ee9ecfddb8b60a80a42b618a72f1018fcf60974e5d852831/dynaconf-3.2.12-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b5/36/7fb70f04bf00bc646cd5bb45aa9eddb15e19437a28b8fb2b4a5249fac770/filelock-3.20.3-py3-none-any.whl
@@ -903,6 +903,14 @@ packages:
   - cdci-data-analysis
   requires_python: '>=3.10'
 - pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=new-kg-schema#971e09ed3ff377c78508262ec695b385fac41a79
+  name: dispatcher-plugin-nb2workflow
+  version: 1.0.0
+  requires_dist:
+  - rdflib
+  - puremagic
+  - cdci-data-analysis
+  requires_python: '>=3.10'
+- pypi: git+https://github.com/oda-hub/dispatcher-plugin-nb2workflow?branch=new-kg-schema#bcbb4ed9dfe45c1224719eeace662922b42cdaa4
   name: dispatcher-plugin-nb2workflow
   version: 1.0.0
   requires_dist:
