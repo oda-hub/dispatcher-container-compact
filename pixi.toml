@@ -19,11 +19,11 @@ libpq = ">=18.1,<19"
 libmagic = ">=5.46,<6"
 
 [pypi-dependencies]
-cdci-data-analysis = { git = "https://github.com/oda-hub/dispatcher-app.git", branch = "master", extras = ["ontology"] }
+cdci-data-analysis = { git = "https://github.com/oda-hub/dispatcher-app.git", branch = "fix-email-escaped-api-code-length", extras = ["ontology"] }
 #oda-api = { git = "https://github.com/oda-hub/oda_api.git", branch = "master" }
 
 [feature.ivoa.pypi-dependencies]
-cdci-data-analysis = { git = "https://github.com/oda-hub/dispatcher-app.git", branch = "master", extras = ["ontology", "ivoa"] }
+cdci-data-analysis = { git = "https://github.com/oda-hub/dispatcher-app.git", branch = "fix-email-escaped-api-code-length", extras = ["ontology", "ivoa"] }
 
 [feature.spi_acs.pypi-dependencies]
 dispatcher-plugin-integral-all-sky = { git = "https://github.com/oda-hub/dispatcher-plugin-integral-all-sky", branch="master" }
